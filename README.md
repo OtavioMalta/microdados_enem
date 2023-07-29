@@ -1,10 +1,14 @@
 # Microdados ENEM
 
 ## Descrição:
-Este repositório contém um projeto de análise de dados fornecidos pelo INEP sobre os resultados do ENEM 2016 para estudantes de escolas privadas. O objetivo principal é investigar as relações entre as características socioeconômicas dos estudantes e seu desempenho nas provas do ENEM.
+Este repositório contém um projeto de análise de dados fornecidos pelo INEP sobre os resultados do ENEM 2016 para estudantes de escolas privadas. O objetivo principal é investigar as relações entre as características socioeconômicas dos estudantes bolsistas e não bolsitas e seu desempenho nas provas do ENEM 2016.
 
 ## Visão Geral:
 Neste projeto, foi utilizado a linguagem de programação R e bibliotecas como ggplot2, data.table e dplyr para realizar a análise exploratória dos dados do ENEM 2016, focando em alunos de escolas privadas. O dataset original foi importado, filtrado para incluir apenas estudantes de escolas privadas e analisar a diferença entre bolsistas e não bolsistas.
+
+## Requisitos
+Para a execução deste projeto, é necessário o download dos [microdados do ENEM 2016](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem) no site oficial do Governo Federal.
+É necessário também a instalação do [R](https://posit.co/download/rstudio-desktop/) e das bibliotecas ggplot2, data.table e dplyr.
 
 ## Parâmetros para filtragem 
 'A' - Somente em escola pública.
