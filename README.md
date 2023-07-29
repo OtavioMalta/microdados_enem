@@ -11,10 +11,10 @@ Para a execução deste projeto, é necessário o download dos <a href="https://
 É necessário também a instalação do <a href="https://posit.co/download/rstudio-desktop/" target="_blank">R</a> e das bibliotecas ggplot2, data.table e dplyr.
 
 ## Parâmetros para filtragem 
-'A' - Somente em escola pública.
-'B' - Parte em escola pública e parte em escola privada sem bolsa de estudo integral.
-'C' - Parte em escola pública e parte em escola privada com bolsa de estudo integral.
-'D' - Somente em escola privada sem bolsa de estudo integral.
+'A' - Somente em escola pública. <br>
+'B' - Parte em escola pública e parte em escola privada sem bolsa de estudo integral. <br>
+'C' - Parte em escola pública e parte em escola privada com bolsa de estudo integral. <br>
+'D' - Somente em escola privada sem bolsa de estudo integral. <br>
 'E' - Somente em escola privada com bolsa de estudo integral.
 
 ## Principais Etapas:
