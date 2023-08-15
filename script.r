@@ -13,11 +13,11 @@ library(dplyr)
 memory.limit(24576)
 
 # Setar diretório
-setwd("C:/Users/Otavio/Downloads/trabalhoIsa/microdados_enem_2016/DADOS")
+setwd("C:/Users/Otavio/Downloads/microdados_enem_2016/DADOS")
 getwd()
 
 # Importar dados
-ENEM_2016 <- data.table::fread(input = "C:/Users/Otavio/Downloads/trabalhoIsa/microdados_enem_2016/DADOS/MICRODADOS_ENEM_2016.csv", integer64 = "character"
+ENEM_2016 <- data.table::fread(input = "C:/Users/Otavio/Downloads/microdados_enem_2016/DADOS/MICRODADOS_ENEM_2016.csv", integer64 = "character"
                                ,skip=0,  
                                nrow=-1, 
                                na.strings = " ", 
